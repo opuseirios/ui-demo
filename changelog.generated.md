@@ -1,5 +1,6 @@
-### [v1.0.3](https://github.com/opuseirios/ui-demo/compare/...v1.0.3)
+### [v1.0.4](https://github.com/opuseirios/ui-demo/compare/v1.0.3...v1.0.4)
 
 `2021-07-19`
 
-- Initial commit [fc0b0d](https://github.com/opuseirios/ui-demo/commit/fc0b0db226f1741ce1aeb103ea83bd85c0e56e60)
+- ccc [2959cc](https://github.com/opuseirios/ui-demo/commit/2959ccdadde4994abd6c8c4622ec310764f10eb5)
+- ccc [cda5d5](https://github.com/opuseirios/ui-demo/commit/cda5d557478af78f16d897f7ab8b39eeae204ece)
