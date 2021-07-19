@@ -1,6 +1,6 @@
 @import '../style/var';
 
-.van-button {
+.cp-button {
   position: relative;
   display: inline-block;
   box-sizing: border-box;
@@ -74,28 +74,28 @@
   &--plain {
     background-color: @button-plain-background-color;
 
-    &.van-button--primary {
+    &.cp-button--primary {
       color: @button-primary-background-color;
       &::before{
         background-color: @button-primary-background-color;
       }
     }
 
-    &.van-button--info {
+    &.cp-button--info {
       color: @button-info-background-color;
       &::before{
         background-color: @button-info-background-color;
       }
     }
 
-    &.van-button--danger {
+    &.cp-button--danger {
       color: @button-danger-background-color;
       &::before{
         background-color: @button-danger-background-color;
       }
     }
 
-    &.van-button--warning {
+    &.cp-button--warning {
       color: @button-warning-background-color;
       &::before{
         background-color: @button-warning-background-color;
@@ -130,7 +130,7 @@
     padding: 0 @padding-base;
     font-size: @button-mini-font-size;
     border-radius: @border-radius-xs;
-    & + .van-button--mini {
+    & + .cp-button--mini {
       margin-left: @padding-base;
     }
   }
@@ -166,7 +166,7 @@
     height: 100%;
 
     // fix icon vertical align
-    // see: https://github.com/youzan/vant/issues/7617
+    // see: https://github.com/youzan/cpt/issues/7617
     &::before {
       content: ' ';
     }
@@ -192,11 +192,11 @@
       border-radius: @button-border-radius * 2;
     }
 
-    &.van-button--round::after {
+    &.cp-button--round::after {
       border-radius: @button-round-border-radius;
     }
 
-    &.van-button--square::after {
+    &.cp-button--square::after {
       border-radius: 0;
     }
   }
